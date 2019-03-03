@@ -17,7 +17,7 @@ public class MessageSpot : MonoBehaviour {
 
     void Start () {
         screenMessageManager = ScreenMessageManager.instance;
-        InvokeRepeating("SuperHotMessage", 1,2);
+        InvokeRepeating("SuperHotMessage", 0,2);
     }
 
     // Update is called once per frame

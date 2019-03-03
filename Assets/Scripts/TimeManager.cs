@@ -6,12 +6,8 @@ public class TimeManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        ScreenMessageManager sm = ScreenMessageManager.instance;
 
-        sm.ShowMessage("SUPER", 1);
-        sm.ShowMessage("HOT", 1);
-        sm.ShowMessage("SUPER", 1);
-        sm.ShowMessage("HOT", 1);
+      
     }
 	
 	// Update is called once per frame
