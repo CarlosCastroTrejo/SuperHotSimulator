@@ -50,7 +50,7 @@ public class ScreenMessageManagerGame : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         screenMessageText = transform.Find("Text").GetComponent<Text>();
-        screenMessageText = transform.Find("Notes").GetComponent<Text>();
+        sideNotes = transform.Find("Notes").GetComponent<Text>();
         //screenMessageText = this.GetComponent<Text>();
         messages = new Queue<ScreenMessage>();
         StartCoroutine(Coroutine1());
