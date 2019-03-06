@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ScreenMessageManagerGame : MonoBehaviour {
     Queue<ScreenMessage> messages;
     public Text screenMessageText;
-    public Text sideNotes;
 
     public static ScreenMessageManagerGame instance;
 
@@ -33,8 +32,10 @@ public class ScreenMessageManagerGame : MonoBehaviour {
             {
                 ScreenMessage sm = messages.Dequeue();
                 //Debug.Log(sm.GetMessage());
+                screenMessageText.fontStyle = FontStyle.Normal;
+                screenMessageText.font = (Font)Resources.Load("RobotoT");
                 screenMessageText.text = sm.GetMessage();
-                SoundManager.instance.PlaySound(sm.GetMessage());
+                SoundManager.instance.PlaySound("Beep");
                 yield return new WaitForSecondsRealtime(sm.GetTime());
             }
             else {
@@ -50,7 +51,6 @@ public class ScreenMessageManagerGame : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         screenMessageText = transform.Find("Text").GetComponent<Text>();
-        sideNotes = transform.Find("Notes").GetComponent<Text>();
         //screenMessageText = this.GetComponent<Text>();
         messages = new Queue<ScreenMessage>();
         StartCoroutine(Coroutine1());

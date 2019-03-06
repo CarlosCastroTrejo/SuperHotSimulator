@@ -62,8 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Ceiling Fan\Scripts\Fan_Rotation.cs" />
+    <Compile Include="Assets\Enemy\EnemyControl.cs" />
+    <Compile Include="Assets\Enemy\EnemyIK.cs" />
+    <Compile Include="Assets\Enemy\EnemyShooter.cs" />
     <Compile Include="Assets\Guns\Demo Assets\SimpleShoot.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
+    <Compile Include="Assets\Scripts\Collision.cs" />
+    <Compile Include="Assets\Scripts\enableEnemies.cs" />
+    <Compile Include="Assets\Scripts\enableGun.cs" />
+    <Compile Include="Assets\Scripts\forcePush.cs" />
     <Compile Include="Assets\Scripts\MessageSpot.cs" />
     <Compile Include="Assets\Scripts\MessageSpotGame.cs" />
     <Compile Include="Assets\Scripts\PlayerShoot.cs" />

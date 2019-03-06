@@ -1,13 +1,21 @@
 ﻿<Properties StartupConfiguration="{91B45C05-602B-B9B6-93F4-76FC3AE5EF86}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScreenMessageManagerGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enableEnemies.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScreenMessageManager.cs" Line="84" Column="9" />
-      <File FileName="Assets/Scripts/MessageSpot.cs" Line="20" Column="18" />
+      <File FileName="Assets/Scripts/ScreenMessageManager.cs" Line="69" Column="51" />
       <File FileName="Assets/Scripts/TimeManager.cs" Line="9" Column="1" />
       <File FileName="Assets/Scripts/ScreenMessage.cs" Line="8" Column="23" />
-      <File FileName="Assets/Scripts/ScreenMessageManagerGame.cs" Line="53" Column="18" />
-      <File FileName="Assets/Scripts/MessageSpotGame.cs" Line="21" Column="56" />
-      <File FileName="Assets/Scripts/PlayerShoot.cs" Line="33" Column="54" />
+      <File FileName="Assets/Scripts/ScreenMessageManagerGame.cs" Line="12" Column="4" />
+      <File FileName="Assets/Scripts/PlayerShoot.cs" Line="17" Column="9" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="25" Column="51" />
+      <File FileName="Assets/Scripts/Collision.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/MessageSpot.cs" Line="18" Column="20" />
+      <File FileName="Assets/Scripts/forcePush.cs" Line="8" Column="32" />
+      <File FileName="Assets/Scripts/MessageSpotGame.cs" Line="14" Column="33" />
+      <File FileName="Assets/Scripts/Bala.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/enableGun.cs" Line="24" Column="33" />
+      <File FileName="Assets/Enemy/EnemyControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Enemy/EnemyIK.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/enableEnemies.cs" Line="21" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
