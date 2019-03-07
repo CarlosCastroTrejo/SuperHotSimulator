@@ -12,7 +12,7 @@ public class EnemyShooter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("Shoot", 0.5f, 0.5f);
+        InvokeRepeating("Shoot", 0.5f, 2);
 	}
 	
 	// Update is called once per frame

@@ -16,20 +16,16 @@ public class enableEnemies : MonoBehaviour {
 
     }
 
-    void Start ()
+    void Start()
     {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () 
+  
+
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
-        {
-            SceneManager.LoadScene(0);
-        }
-
-
+       
     }
 
    public void Activar()
@@ -44,4 +40,6 @@ public class enableEnemies : MonoBehaviour {
         }
 
     }
+
+  
 }

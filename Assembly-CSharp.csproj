@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\enableEnemies.cs" />
     <Compile Include="Assets\Scripts\enableGun.cs" />
+    <Compile Include="Assets\Scripts\Finish.cs" />
     <Compile Include="Assets\Scripts\forcePush.cs" />
     <Compile Include="Assets\Scripts\MessageSpot.cs" />
     <Compile Include="Assets\Scripts\MessageSpotGame.cs" />

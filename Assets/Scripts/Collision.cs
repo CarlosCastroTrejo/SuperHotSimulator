@@ -25,8 +25,6 @@ public class Collision : MonoBehaviour
     {
         if (other.CompareTag("Player") || other.CompareTag("Bala"))
         {
-
-
             Instantiate(ragdoll,this.transform.position,Quaternion.identity);
             Destroy(gameObject);
         }

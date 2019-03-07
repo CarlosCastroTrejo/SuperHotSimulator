@@ -35,7 +35,18 @@ public class ScreenMessageManagerGame : MonoBehaviour {
                 screenMessageText.fontStyle = FontStyle.Normal;
                 screenMessageText.font = (Font)Resources.Load("RobotoT");
                 screenMessageText.text = sm.GetMessage();
-                SoundManager.instance.PlaySound("Beep");
+
+                if(sm.GetMessage()=="SUPER" || sm.GetMessage() == "HOT")
+                {
+                    SoundManager.instance.PlaySound(sm.GetMessage());
+
+                }
+                else
+                {
+                    SoundManager.instance.PlaySound("Beep");
+
+                }
+
                 yield return new WaitForSecondsRealtime(sm.GetTime());
             }
             else {
